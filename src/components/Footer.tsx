@@ -21,7 +21,9 @@ const Footer = () => {
             {/* Mobile-Enhanced Social Links */}
             <div className="flex flex-wrap gap-3 sm:gap-4 mb-4 sm:mb-6">
               <a
-                href="#"
+                href="https://www.instagram.com/kraivdigital?igsh=ZTk4aWJ1b2l3anBy"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 sm:w-12 sm:h-12 bg-white/10 backdrop-blur-md border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 active:scale-95 transition-all duration-300"
               >
                 <Instagram className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
@@ -33,7 +35,7 @@ const Footer = () => {
                 <Youtube className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
               </a>
               <a
-                href="mailto:contact@kraiv.com"
+                href="mailto:kraivcontact@gmail.com"
                 className="w-10 h-10 sm:w-12 sm:h-12 bg-white/10 backdrop-blur-md border border-white/20 rounded-full flex items-center justify-center hover:bg-white/20 active:scale-95 transition-all duration-300"
               >
                 <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
@@ -85,8 +87,8 @@ const Footer = () => {
               
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 flex-shrink-0" />
-                <a href="mailto:contact@kraiv.com" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm sm:text-base">
-                  contact@kraiv.com
+                <a href="mailto:kraivcontact@gmail.com" className="text-gray-400 hover:text-blue-400 transition-colors duration-300 text-sm sm:text-base">
+                  kraivcontact@gmail.com
                 </a>
               </div>
             </div>

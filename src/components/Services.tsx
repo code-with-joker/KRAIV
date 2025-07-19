@@ -65,9 +65,11 @@ const Services = () => {
                   <div className="relative h-full bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 sm:p-6 hover:bg-white/15 transition-all duration-300">
                     {/* Fixed Icon Container */}
                     <div className="relative mb-4">
-                      <div className="hidden sm:block absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl blur-lg opacity-30 transform rotate-6"></div>
-                      <div className="relative w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center shadow-lg">
+                      <div className="hidden sm:block absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl blur-lg opacity-40 transform rotate-6 scale-110"></div>
+                      <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/20 to-purple-600/20 rounded-xl blur-md transform -rotate-3 scale-105"></div>
+                      <div className="relative w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-xl flex items-center justify-center shadow-2xl transform hover:scale-110 hover:rotate-12 transition-all duration-500">
                         <Icon className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                        <div className="absolute inset-0 bg-white/10 rounded-xl"></div>
                       </div>
                     </div>
 

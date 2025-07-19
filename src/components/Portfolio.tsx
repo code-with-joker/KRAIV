@@ -137,8 +137,12 @@ const Portfolio = () => {
                       
                       {/* Mobile Play Button */}
                       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center">
+                        <div className="relative">
+                          <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-lg opacity-60 scale-125"></div>
+                          <div className="relative w-12 h-12 sm:w-16 sm:h-16 bg-white/30 backdrop-blur-md rounded-full flex items-center justify-center shadow-2xl transform hover:scale-110 transition-all duration-300">
+                            <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-full"></div>
                           <Eye className="w-6 h-6 sm:w-8 sm:h-8 text-white ml-1" />
+                          </div>
                         </div>
                       </div>
                     </div>

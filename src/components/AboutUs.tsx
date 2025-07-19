@@ -3,7 +3,7 @@ import { Users, Target, Lightbulb, DollarSign, Award, Zap } from 'lucide-react';
 
 const AboutUs = () => {
   const team = [
-    { name: "Alex Kumar", role: "Creative Director & Founder", specialty: "Brand Strategy" },
+    { name: "Kritam Singh", role: "Creative Director & Founder", specialty: "Brand Strategy" },
     { name: "Priya Sharma", role: "Lead Designer", specialty: "UI/UX & Graphics" },
     { name: "Rohit Singh", role: "Video Editor", specialty: "Political Campaigns" },
     { name: "Maya Patel", role: "Social Media Manager", specialty: "Growth Hacking" },

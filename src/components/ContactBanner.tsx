@@ -6,8 +6,10 @@ const ContactBanner = () => {
     <section className="py-12 sm:py-16 bg-gradient-to-r from-green-600 via-green-500 to-blue-600 relative overflow-hidden">
       {/* Simplified Background */}
       <div className="absolute inset-0 hidden sm:block">
-        <div className="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute bottom-10 right-10 w-40 h-40 bg-white/10 rounded-full blur-xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-10 left-10 w-32 h-32 bg-white/15 rounded-full blur-xl animate-pulse"></div>
+        <div className="absolute bottom-10 right-10 w-40 h-40 bg-white/15 rounded-full blur-xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-yellow-300/20 rounded-full blur-2xl animate-bounce" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute top-1/3 right-1/4 w-36 h-36 bg-blue-300/20 rounded-full blur-2xl animate-bounce" style={{ animationDelay: '0.5s' }}></div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

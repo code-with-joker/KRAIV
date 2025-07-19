@@ -27,6 +27,43 @@ const Hero = () => {
 
       {/* Desktop Only Floating Icons */}
       <div className="absolute inset-0 pointer-events-none hidden lg:block">
+        {/* Enhanced 3D Floating Elements */}
+        <div className="absolute top-20 left-20 animate-bounce" style={{ animationDelay: '0.5s', animationDuration: '4s' }}>
+          <div className="relative transform rotate-12 hover:rotate-45 transition-transform duration-1000">
+            <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-3xl blur-xl opacity-40 transform scale-110"></div>
+            <div className="relative w-16 h-16 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-3xl shadow-2xl flex items-center justify-center">
+              <div className="w-8 h-8 bg-white/30 rounded-xl"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="absolute top-40 right-32 animate-bounce" style={{ animationDelay: '1.5s', animationDuration: '3.5s' }}>
+          <div className="relative transform -rotate-12 hover:rotate-12 transition-transform duration-1000">
+            <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full blur-xl opacity-40 transform scale-125"></div>
+            <div className="relative w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full shadow-2xl flex items-center justify-center">
+              <div className="w-10 h-10 bg-white/30 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="absolute bottom-32 left-32 animate-bounce" style={{ animationDelay: '2.5s', animationDuration: '4.5s' }}>
+          <div className="relative transform rotate-45 hover:-rotate-12 transition-transform duration-1000">
+            <div className="absolute inset-0 bg-gradient-to-br from-green-400 to-emerald-600 rounded-2xl blur-xl opacity-40 transform scale-110"></div>
+            <div className="relative w-14 h-14 bg-gradient-to-br from-green-400 to-emerald-600 rounded-2xl shadow-2xl flex items-center justify-center">
+              <div className="w-6 h-6 bg-white/30 rounded-lg"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="absolute bottom-20 right-20 animate-bounce" style={{ animationDelay: '3s', animationDuration: '3s' }}>
+          <div className="relative transform -rotate-45 hover:rotate-90 transition-transform duration-1000">
+            <div className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-full blur-xl opacity-40 transform scale-120"></div>
+            <div className="relative w-18 h-18 bg-gradient-to-br from-yellow-400 to-orange-600 rounded-full shadow-2xl flex items-center justify-center">
+              <div className="w-8 h-8 bg-white/30 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+
         {services.map((service, index) => {
           const Icon = service.icon;
           return (
@@ -41,8 +78,8 @@ const Hero = () => {
               }}
             >
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur-xl opacity-30 transform rotate-12"></div>
-                <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-4 shadow-2xl">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl blur-xl opacity-40 transform rotate-12 scale-110"></div>
+                <div className="relative bg-white/15 backdrop-blur-md border border-white/30 rounded-2xl p-4 shadow-2xl transform hover:scale-110 hover:rotate-12 transition-all duration-500">
                   <Icon className="w-8 h-8 text-white" />
                 </div>
               </div>
